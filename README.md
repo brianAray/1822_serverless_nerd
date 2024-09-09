@@ -1,7 +1,5 @@
 # Welcome to 1822 Serverless NERD (Node.js, Express.js, React, DynamoDB)!
 
-Hello I have been changed!
-
 This is the training repository for the Serverless NERD cohort starting on September 9th, 2024. All of the notes, demos, study guides, project guidelines, and other resources will be found here.
 
 ## Installation Guide
