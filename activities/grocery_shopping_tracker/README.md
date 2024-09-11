@@ -45,4 +45,8 @@ rl.once('close', () => {
      // end of input
      console.log("Goodbye");
  });
+
+rl.question('Enter name:', (name) => {
+	console.log(name);
+});
 ```
