@@ -1,0 +1,13 @@
+2024-09-13T13:51:51.462Z [info]: Shopping list updated in data.json
+2024-09-13T13:51:51.480Z [info]: Added Item: Milk
+2024-09-13T13:54:31.217Z [info]: Server is running on http://localhost:3000
+2024-09-13T14:00:46.939Z [info]: Server is running on http://localhost:3000
+2024-09-13T14:00:59.387Z [info]: Shopping list updated in data.json
+2024-09-13T14:00:59.387Z [info]: Added Item: Apple
+2024-09-13T14:01:12.058Z [info]: Shopping list updated in data.json
+2024-09-13T14:01:12.062Z [info]: Toggle Purchased: Milk: true
+2024-09-13T14:01:16.216Z [info]: Shopping list updated in data.json
+2024-09-13T14:01:16.216Z [info]: Toggle Purchased: Milk: false
+2024-09-13T14:01:23.316Z [info]: Shopping list updated in data.json
+2024-09-13T14:01:23.317Z [info]: Removed Item: Apple
+2024-09-13T14:01:25.766Z [error]: Failed to toggle purchase: Invalid index - 1
