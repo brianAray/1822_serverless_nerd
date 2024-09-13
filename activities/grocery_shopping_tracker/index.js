@@ -18,7 +18,7 @@ displayShoppingList();
 
 function displayShoppingList(){
     shoppingList.forEach((item, index) => {
-        const status = item.purchased ? ' (Purchased)' : '';
+        const status = (item.purchased ? "\u2611" : "\u2610"); // Unicode characters for checked boxes
         console.log(`${index + 1}. ${item.name} ($${item.price})${status}`)
     });
 

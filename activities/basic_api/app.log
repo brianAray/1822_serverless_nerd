@@ -11,3 +11,5 @@
 2024-09-13T14:01:23.316Z [info]: Shopping list updated in data.json
 2024-09-13T14:01:23.317Z [info]: Removed Item: Apple
 2024-09-13T14:01:25.766Z [error]: Failed to toggle purchase: Invalid index - 1
+2024-09-13T15:02:59.777Z [info]: Server is running on http://localhost:3000
+2024-09-13T15:03:12.601Z [info]: ,items,1

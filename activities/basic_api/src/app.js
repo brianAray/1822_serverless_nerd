@@ -17,6 +17,7 @@ const server = http.createServer((req, res) => {
             const contentType = {"Content-Type":"application/json"};
 
             if (req.url.startsWith("/items")){
+                logger.info(req.url.split('/'));
                 let index = parseInt(req.url.split("/")[2]);
 
                 switch(req.method){
