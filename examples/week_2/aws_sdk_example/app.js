@@ -24,6 +24,18 @@ const getCommand = new GetCommand({
 });
 
 // promises
-documentClient.send(getCommand)
-    .then(data => console.log(data))
-    .catch(err => console.error(err));
+// documentClient.send(getCommand)
+//     .then(data => console.log(data))
+//     .catch(err => console.error(err));
+
+// Async/Await
+async function fetchItem(){
+    try{
+        const data = await documentClient.send(getCommand);
+        console.log(data);
+    }catch(err){
+        console.error(err);
+    }
+}
+
+fetchItem();
