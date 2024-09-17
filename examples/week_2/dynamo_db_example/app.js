@@ -1,4 +1,4 @@
-const {getItem, createItem} = require('./EmployeeDAO');
+const {getItem, createItem, queryEmployee, scanEmployeesByRole, queryEmployeesByRole} = require('./EmployeeDAO');
 const uuid = require("uuid");
 
 let key = {
@@ -18,4 +18,10 @@ async function createEmployee(name, email){
     console.log(data);
 }
 
-createEmployee("Jane Smith", "jane@email.com");
+// createEmployee("Mike Smith", "mike@email.com");
+
+// queryEmployee(key.employee_id).then(data => console.log(data));
+
+// scanEmployeesByRole("Engineer").then(data => console.log(data));
+
+// queryEmployeesByRole("Accountant").then(data => console.log(data));
