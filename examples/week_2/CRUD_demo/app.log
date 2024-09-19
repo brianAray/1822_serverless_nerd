@@ -1,0 +1,13 @@
+2024-09-19T14:22:47.128Z [info]: Incoming POST : /items
+2024-09-19T14:23:18.592Z [info]: Incoming POST : /items
+2024-09-19T14:23:24.004Z [info]: Incoming POST : /items
+2024-09-19T14:25:05.492Z [info]: Incoming POST : /items
+2024-09-19T14:25:05.833Z [error]: ReturnValues can only be ALL_OLD or NONE
+2024-09-19T14:25:35.625Z [info]: Incoming POST : /items
+2024-09-19T14:25:36.150Z [info]: PUT command to database complete: [object Object]
+2024-09-19T14:27:09.212Z [info]: Incoming POST : /items
+2024-09-19T14:27:09.578Z [info]: PUT command to database complete {"$metadata":{"httpStatusCode":200,"requestId":"ON87BIAOU9J47QI1G4IUIFTE83VV4KQNSO5AEMVJF66Q9ASUAAJG","attempts":1,"totalRetryDelay":0}}
+2024-09-19T14:29:22.181Z [info]: Incoming GET : /items
+2024-09-19T14:35:36.610Z [info]: Incoming GET : /items/c2c67bda-3196-4df1-b797-7058e81fa082
+2024-09-19T14:40:47.763Z [info]: Incoming GET : /items/?itemName=Milk
+2024-09-19T14:41:13.637Z [info]: Incoming GET : /items/?itemName=Orange
