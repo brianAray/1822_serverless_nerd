@@ -1,0 +1,13 @@
+2024-09-19T13:08:19.941Z [info]: Server is listening on port: 3000
+2024-09-19T13:11:48.704Z [info]: Server is listening on port: 3000
+2024-09-19T13:11:54.167Z [info]: Incoming GET : /
+2024-09-19T13:15:20.804Z [info]: Server is listening on port: 3000
+2024-09-19T13:15:27.268Z [info]: Incoming GET : /items
+2024-09-19T13:19:24.188Z [info]: Server is listening on port: 3000
+2024-09-19T13:20:01.005Z [info]: Incoming POST : /items
+2024-09-19T13:23:21.363Z [info]: Server is listening on port: 3000
+2024-09-19T13:23:25.971Z [info]: Incoming POST : /items
+2024-09-19T13:23:36.126Z [info]: Incoming POST : /items
+2024-09-19T13:23:44.754Z [info]: Incoming POST : /items
+2024-09-19T13:25:15.817Z [info]: Server is listening on port: 3000
+2024-09-19T13:25:50.749Z [info]: Server is listening on port: 3000
