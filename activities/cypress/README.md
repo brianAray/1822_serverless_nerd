@@ -2,6 +2,10 @@
 
 This activity will guide you through creating a Cypress test suite for the Conduit real-world application. You will be testing the login page, registration page, profile page, create article page, and an additional page of your choice. This will help you gain hands-on experience with Cypress for testing frontend websites.
 
+The website url is:
+
+- "https://conduit.realworld.how"
+
 ## Setup and Installation
 
 ### Prerequisites
