@@ -25,9 +25,10 @@ app.post("/register", async (req, res) => {
 
     users.push(newUser);
 
+    console.log(users);
+
     res.status(201).json({message: "User successfully registered"});
 });
-
 
 app.post("/login", async (req, res) => {
     const { username, password } = req.body;

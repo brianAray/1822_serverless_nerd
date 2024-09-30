@@ -1,0 +1,10 @@
+# Testing Philosophy
+
+| Criteria Category | Exit Criteria                                      | Notes                                                                                                                               |
+|-------------------|----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Must Have         | Understand the testing process and the importance of testing |                                                                                                                                     |
+| Must Have         | Be able to describe a testing mindset (from a Tester's perspective) |                                                                                                                                     |
+| Must Have         | Be able to describe a testing mindset (from a Developer's perspective) |                                                                                                                                     |
+| Must Have         | Describe the objectives of testing                 |                                                                                                                                     |
+| Must Have         | Understand and be able to talk about the Testing Principles | Includes principles like: Exhaustive Testing is not possible, Defect Clustering, Pesticide Paradox, Testing shows the presence of defects, Absence of Error Fallacy, Early Testing, Testing is context dependent |
+| Must Have         | Describe Quality Assurance and Quality Control     |                                                                                                                                     |
