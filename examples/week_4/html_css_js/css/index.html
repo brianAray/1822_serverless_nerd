@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        /* Add styles to multiple elements in the same html document
+        
+            This is useful if you want to restrict styles to a single document
+        */
+        p {
+            color: rgb(200, 55, 100);
+            font-size: 18px;
+            font-weight: bolder;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- 
+        Inline styles are applied directly to the element
+        Useful for addign specific styles to an element that won't affect any others
+
+        They have the highest specificity of any styling, meaning they override other styles
+
+        In general,  it is not recommended to use this to style your entire page
+    -->
+    <h1 class="class_example" style="color: rgb(60, 94, 129); background-color: rgb(163, 204, 121);">Header</h1>
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatem?</p>
+
+    <div id="box">
+        <p class="class_example">This is a box example</p>
+    </div>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li class="highlight">Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <form>
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
