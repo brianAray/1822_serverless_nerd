@@ -3,7 +3,7 @@ import LoginInput, { LoginInputType } from './LoginInput';
 import axios from 'axios';
 import AccountContainer from '../Account/AccountContainer';
 
-const URL = "http://localhost:4000";
+const URL = "http://54.234.102.40:4000";
 
 function LoginContainer(props: any) {
 
