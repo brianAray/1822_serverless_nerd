@@ -1,0 +1,2 @@
+AWS CLI OPTION TO CHECK ACTIVE RESOURCES IN YOUR DEFAULT REGION
+aws resourcegroupstaggingapi get-resources
